@@ -1,8 +1,11 @@
 # Finished products of Nameless can be found on
 https://namelessmc.com/
 
-
 ### Warning - All downloads off the github are not 100% bug free and are in dev.
+
+![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/NamelessMC/Nameless.svg)
+
+![Percentage of issues still open](http://isitmaintained.com/badge/open/NamelessMC/Nameless.svg)
 
 # Version 2.0
 
@@ -72,7 +75,7 @@ Upcoming addons (these will need to be downloaded separately):
 * @PugaBear
 * @Root3287
 * @jesseke55
-* @RobinMCNetwork
+* @Derkades
 * @godleydemon
 * @yshf9
 * @dasilvaj4
@@ -108,6 +111,7 @@ Upcoming addons (these will need to be downloaded separately):
 * @nick-2017
 * @Cl1608Ho
 * @Fiiily
+* @OscarWoHA
 
 **[NamelessMC Website](http://namelessmc.github.io/)**
 * @Samerton
@@ -129,10 +133,10 @@ Upcoming addons (these will need to be downloaded separately):
 * German: @LPkkjHD, @manuelgu, @BukkitTNT, philipp0002, @McLive, @Cl1608Ho and @monjo44
 * Spanish: @paloke, @lockerecca, @talkahe, @mrlost, Dexkum and @Ariuw
 * Czech: SnooWiK
-* Norsk: @partydragen
+* Norsk: @partydragen and @OscarWoHA
 * Slovak: @Marki35
 * French: @CreaModZ
-* Dutch: Sander Jochems, @Azoraqua, @Headhunterzpw, @melerpe, @aycgit, @RobinMCNetwork and smessie
+* Dutch: Sander Jochems, @Azoraqua, @Headhunterzpw, @melerpe, @aycgit, @Derkades, smessie and @TheSander562
 * Finnish: -kakara-
 * Portuguese: @dgateles, @dasilvaj4
 
