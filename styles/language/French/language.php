@@ -142,6 +142,12 @@ $admin_language = array(
 	'text' => 'Texte',
 	'textarea' => 'Zone de texte',
 	'question_deleted' => 'Question supprimée',
+	'name_required' => 'Name is required.',
+	'question_required' => 'Question is required.',
+	'name_minimum' => 'Name must be a minimum of 2 characters.',
+	'question_minimum' => 'Question must be a minimum of 2 characters.',
+	'name_maximum' => 'Name must be a maximum of 16 characters.',
+	'question_maximum' => 'Question must be a maximum of 16 characters.',
 	'use_followers' => 'Utiliser la fonction "Fan"?',
 	'use_followers_help' => 'Si la fonction "Fan" est désactivée, la fonction "Amis" sera utilisée.',
 	
@@ -318,6 +324,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'Instance mcassoc',
 	'mcassoc_instance_help' => 'Générer un code d\'instance mcassoc <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">ici</a>',
 	'mcassoc_key_help' => 'Générer votre clé de partage mcassoc <a href="https://mcassoc.lukegb.com/" target="_blank">ici</a>',
+	'enable_name_history' => 'Enable profile username history?',
 	
 	// Admin Themes, Templates and Addons
 	'themes' => 'Thèmes',
@@ -353,6 +360,7 @@ $admin_language = array(
 	'inverse_navbar' => 'Inverser la barre de navigation',
 	'confirm_theme_deletion' => 'Êtes-vous certain de vouloir supprimé le Thème <strong>{x}</strong>?<br /><br />Le Thème sera supprimé de la catégorie <strong>Thèmes</strong> directory.', // Don't replace {x}
 	'confirm_template_deletion' => 'Are you sure you wish to delete the template <strong>{x}</strong>?<br /><br />Le Modèle sera supprimé de la catégorie <strong>Modèles</strong> directory.', // Don't replace {x}
+	'unable_to_enable_addon' => 'Could not enable addon. Please ensure it is a valid NamelessMC addon.',
 	
 	// Admin Misc page
 	'other_settings' => 'Autres paramètres',

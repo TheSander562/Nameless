@@ -136,6 +136,12 @@ $admin_language = array(
 	'text' => 'Teksti',
 	'textarea' => 'Tekstialue',
 	'question_deleted' => 'Kysymys poistettu.',
+	'name_required' => 'Name is required.',
+	'question_required' => 'Question is required.',
+	'name_minimum' => 'Name must be a minimum of 2 characters.',
+	'question_minimum' => 'Question must be a minimum of 2 characters.',
+	'name_maximum' => 'Name must be a maximum of 16 characters.',
+	'question_maximum' => 'Question must be a maximum of 16 characters.',
 	'use_followers' => 'Use followers?',
 	'use_followers_help' => 'If disabled, the friends system will be used.',
 	
@@ -312,6 +318,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'mcassoc Instance',
 	'mcassoc_instance_help' => 'Generate an instance code <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">here</a>',
 	'mcassoc_key_help' => 'Get your mcassoc key <a href="https://mcassoc.lukegb.com/" target="_blank">here</a>',
+	'enable_name_history' => 'Enable profile username history?',
 	
 	// Admin Themes, Templates and Addons
 	'themes' => 'Teemat',
@@ -347,6 +354,7 @@ $admin_language = array(
 	'inverse_navbar' => 'Käänteinen navigaatiopalkki',
 	'confirm_theme_deletion' => 'Oletko varma, että haluat poistaa teeman <strong>{x}</strong>?<br /><br />Teema poistetaan myös <strong>styles/themes</strong> kansiosta.', // Don't replace {x}
 	'confirm_template_deletion' => 'Oletko varma, että haluat poistaa mallin <strong>{x}</strong>?<br /><br />Malli poistetaan myös <strong>styles/templates</strong> kansiosta.', // Don't replace {x}
+	'unable_to_enable_addon' => 'Could not enable addon. Please ensure it is a valid NamelessMC addon.',
 	
 	// Admin Misc page
 	'other_settings' => 'Muut asetukset',

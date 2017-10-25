@@ -27,7 +27,7 @@ class Infractions {
 		if($uuid !== null){
 			$field = "uuid";
 			$symbol = "=";
-			$equals = $uuid;
+			$equals = str_replace('-', '', $uuid);
 		} else {
 			$field = "uuid";
 			$symbol = "<>";
@@ -169,13 +169,20 @@ class Infractions {
 	}
 
 	// Receive a list of all infractions for Ban Management, either for a single user or for all users
-	// Params: $uuid (string), UUID of a user. If null, will list all infractions
+	// Params: $uuid (string), username (not UUID) of a user. If null, will list all infractions
 	public function bm_getAllInfractions($uuid = null) {
 		// First, we need to get the player ID (if specified)
 		if($uuid !== null){
+			// Get BM player ID
+			$id = $this->_db->get($this->_prefix . 'players', array('name', '=', $uuid))->results();
+			if(count($id)){
+				$uuid = $id[0]->id;
+			} else
+				return array();
+			
 			$field = "player_id";
 			$symbol = "=";
-			$equals = pack("H*", str_replace('-', '', $uuid));
+			$equals = $uuid;
 		} else {
 			$field = "player_id";
 			$symbol = "<>";
@@ -434,7 +441,7 @@ class Infractions {
 		if(count($result)){
 			return htmlspecialchars($result[0]->name);
 		}
-		return false;
+		return 'Unknown';
 	}
 	
 	// Receive a list of all infractions for LiteBans, either for a single user or for all users
@@ -928,7 +935,7 @@ class Infractions {
 	public function ab_getAllInfractions($uuid = null) {
 		if($uuid !== null){
 			$symbol = "=";
-			$equals = $uuid;
+			$equals = str_replace('-', '', $uuid);
 		} else {
 			$symbol = "<>";
 			$equals = "0";
@@ -1002,6 +1009,20 @@ class Infractions {
 						$ret["type"] = "warning";
 						$ret["type_human"] = '<span class="label label-info">' . $this->_language['warning'] . '</span>';
 						$ret["expires_human"] = '';
+					break;
+					
+					case 'TEMP_WARNING':
+						$ret["type"] = "warning";
+						$ret["type_human"] = '<span class="label label-info">' . $this->_language['warning'] . '</span>';
+						
+						// Convert expiry date
+						$date = $punishment->end / 1000;
+						
+						$ret["expires"] = $date;
+						if(strtotime('now') < $date)
+							$ret["expires_human"] = '<span class="label label-danger" rel="tooltip" data-trigger="hover" data-original-title="' . str_replace('{x}', date("jS M Y", $date), $this->_language['expires_x']) . '">' . $this->_language['active'] . '</span>';
+						else
+							$ret["expires_human"] = '<span class="label label-success" rel="tooltip" data-trigger="hover" data-original-title="' . str_replace('{x}', date("jS M Y", $date), $this->_language['expired_x']) . '">' . $this->_language['expired'] . '</span>';
 					break;
 					
 					case 'KICK':

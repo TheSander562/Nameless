@@ -137,6 +137,12 @@ $admin_language = array(
 	'text' => 'Tekst',
 	'textarea' => 'Tekstfelt',
 	'question_deleted' => 'Spørsmål slettet',
+	'name_required' => 'Name is required.',
+	'question_required' => 'Question is required.',
+	'name_minimum' => 'Name must be a minimum of 2 characters.',
+	'question_minimum' => 'Question must be a minimum of 2 characters.',
+	'name_maximum' => 'Name must be a maximum of 16 characters.',
+	'question_maximum' => 'Question must be a maximum of 16 characters.',
 	'use_followers' => 'Bruk følgere?',
 	'use_followers_help' => 'Hvis deaktivert, vil venner systemet brukes.',
 
@@ -313,6 +319,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'mcassoc instance',
 	'mcassoc_instance_help' => 'Generere en instance kode <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">her</a>',
 	'mcassoc_key_help' => 'Få en mcassoc nøkkelen <a href="https://mcassoc.lukegb.com/" target="_blank">her</a>',
+	'enable_name_history' => 'Enable profile username history?',
 
 	// Admin Themes, Templates and Addons
 	'themes' => 'Temaer',
@@ -348,6 +355,7 @@ $admin_language = array(
 	'inverse_navbar' => 'Omvendt Navigasjonsbar',
 	'confirm_theme_deletion' => 'Er du sikker på at du vil slette temaet <strong>{x}</strong>?<br /><br />Temaet vil bli slettet fra <strong>styles/themes</strong> mappa.', // Don't replace {x}
 	'confirm_template_deletion' => 'Er du sikker på at du vil slette template <strong>{x}</strong>?<br /><br />Template vil bli slettet fra <strong>styles/templates</strong> mappa.', // Don't replace {x}
+	'unable_to_enable_addon' => 'Could not enable addon. Please ensure it is a valid NamelessMC addon.',
 
 	// Admin Misc page
 	'other_settings' => 'Andre Innstillinger',

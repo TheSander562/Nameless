@@ -140,6 +140,12 @@ $admin_language = array(
 	'text' => 'Text',
 	'textarea' => 'Text Area',
 	'question_deleted' => 'Frage gelöscht',
+	'name_required' => 'Name is required.',
+	'question_required' => 'Question is required.',
+	'name_minimum' => 'Name must be a minimum of 2 characters.',
+	'question_minimum' => 'Question must be a minimum of 2 characters.',
+	'name_maximum' => 'Name must be a maximum of 16 characters.',
+	'question_maximum' => 'Question must be a maximum of 16 characters.',
 	'use_followers' => 'FollowerSystem nutzen?',
 	'use_followers_help' => 'Wenn dies nicht aktiv ist, wird das FreundeSystem genutzt.',
 
@@ -316,6 +322,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'mcassoc Instanz',
 	'mcassoc_instance_help' => 'Generiere einen Instanzcode <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">hier</a>',
 	'mcassoc_key_help' => 'Hole dir deinen Key <a href="https://mcassoc.lukegb.com/" target="_blank">hier</a>',
+	'enable_name_history' => 'Enable profile username history?',
 
 	// Admin Themes, Templates and Addons
 	'themes' => 'Themen',
@@ -351,7 +358,8 @@ $admin_language = array(
 	'inverse_navbar' => 'Umgekehrte Navigationsleiste',
 	'confirm_theme_deletion' => 'Bist du sicher, dass du das <strong>{x}</strong> Theme löschen willst?<br /><br />Das Theme wird aus dem <strong>styles/themes</strong> Ordner entfernt.', // Don't replace {x}
 	'confirm_template_deletion' => 'Bist du sicher, dass du die Vorlage <strong>{x}</strong> löschen willst?<br /><br />Das Theme wird aus dem <strong>styles/templates</strong> Ordner entfernt.', // Don't replace {x}
-
+	'unable_to_enable_addon' => 'Could not enable addon. Please ensure it is a valid NamelessMC addon.',
+	
 	// Admin Misc page
 	'other_settings' => 'Andere Einstellungen',
 	'enable_error_reporting' => 'Aktiviere Fehlerrückmeldungen?',

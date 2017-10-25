@@ -142,6 +142,12 @@ $admin_language = array(
     'text' => 'Tekstlijn',
     'textarea' => 'Tekstblok',
     'question_deleted' => 'Vraag verwijderd',
+	'name_required' => 'Naam is verplicht.',
+	'question_required' => 'Vraag is verplicht.',
+	'name_minimum' => 'Naam moet uit miniamaal 2 karakters bestaan.',
+	'question_minimum' => 'Vraag moet uit miniamaal 2 karakters bestaan.',
+	'name_maximum' => 'Naam moet uit maximaal 16 karakters bestaan.',
+	'question_maximum' => 'Vraag moet uit maximaal 16 karakters bestaan.',
     'use_followers' => 'Gebruik volgers?',
     'use_followers_help' => 'Als dit is uitgeschakeld dan wordt het vrienden systeem ingeschakeld',
      
@@ -318,6 +324,7 @@ $admin_language = array(
     'mcassoc_instance' => 'mcassoc Instance',
     'mcassoc_instance_help' => 'Genereer een instance code <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">hier</a>',
     'mcassoc_key_help' => 'Verkrijg je mcassoc sleutel <a href="https://mcassoc.lukegb.com/" target="_blank">hier</a>',
+    'enable_name_history' => 'Schakel profiel gebruikersnaam geschiedenis is?',
 
     // Admin Themes, Templates and Addons
     'themes' => 'Thema\'s',
@@ -353,7 +360,8 @@ $admin_language = array(
     'inverse_navbar' => 'Omgekeerde kleur Navbar',
     'confirm_theme_deletion' => 'Weet je het zeker dat je thema <b>{x}</b> wil verwijderen?<br /><br />Het thema wordt verwijderd uit de <b>styles/themes</b> map.', // Don't replace {x}
     'confirm_template_deletion' => 'Weet je zeker dat je het sjabloon <b>{x}</b> wilt verwijderen?<br /><br />Het sjabloon wordt verwijderd uit de <b>styles/templates</b> map.', // Don't replace {x}
-
+    'unable_to_enable_addon' => 'Kan addon niet inschakelen. Zorg ervoor dat het een geldige NamelessMC addon is.',
+	
     // Admin Misc page
     'other_settings' => 'Andere Instellingen',
     'enable_error_reporting' => 'Probleem rapportage inschakelen?',
@@ -527,7 +535,7 @@ $user_language = array(
     'deleted_alert' => 'Melding is succesvol verwijderd',
      
     // Warnings
-    'you_have_received_a_warning' => 'Je heeft een waarschuwing van {x} op {y} ontvangen.', // Don't replace "{x}" or "{y}"
+    'you_have_received_a_warning' => 'Je hebt een waarschuwing ontvangen van {x} op {y}.', // Don't replace "{x}" or "{y}"
     'acknowledge' => 'Dit Klopt',
      
     // Forgot password
@@ -614,8 +622,8 @@ $mod_language = array(
     'punished_successfully' => 'Straf succesvol toegevoegd.',
 
     // Reports
-    'report_closed' => 'Rapport Gesloten.',
-    'new_comment' => 'Nieuw Commentaar',
+    'report_closed' => 'Rapport gesloten.',
+    'new_comment' => 'Nieuw commentaar',
     'comments' => 'Commentaar',
     'only_viewed_by_staff' => 'Kan alleen worden bekeken door staff',
     'reported_by' => 'Gerapporteerd door',
@@ -623,11 +631,11 @@ $mod_language = array(
     'report' => 'Report:',
     'view_reported_content' => 'Bekijk gemelde inhoud',
     'no_open_reports' => 'Geen open rapporten',
-    'user_reported' => 'Speler Gerapporteerd',
+    'user_reported' => 'Speler gerapporteerd',
     'type' => 'Type',
-    'updated_by' => 'Bijgewerkt Door',
-    'forum_post' => 'Forum Post',
-    'user_profile' => 'Gebruikers Profiel',
+    'updated_by' => 'Bijgewerkt door',
+    'forum_post' => 'Forum post',
+    'user_profile' => 'Gebruikers profiel',
     'comment_added' => 'Commentaar toegevoegd.',
     'new_report_submitted_alert' => 'Nieuw rapport ingediend door {x} over {y}', // Don't replace "{x}" or "{y}"
     'ingame_report' => 'In-game rapport',

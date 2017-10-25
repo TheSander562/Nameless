@@ -11,7 +11,7 @@
  *  Por: www.craftalizar.com & www.miningbr.com.br
  *  Tradutor: Douglas Teles & dasilvaj4
  *  Versão: 0.2.1
- *  Última revisão: 09/03/2017
+ *  Última revisão: 20/10/2017
  */
  
 /*
@@ -140,6 +140,12 @@ $admin_language = array(
 	'text' => 'Texto',
 	'textarea' => 'Área de Texto',
 	'question_deleted' => 'Pergunta Apagada',
+	'name_required' => 'O nome é obrigatório.',
+	'question_required' => 'É necessário uma pergunta.',
+	'name_minimum' => 'O nome deve ter no mínimo 2 caracteres.',
+	'question_minimum' => 'A pergunta deve ter no mínimo 2 caracteres.',
+	'name_maximum' => 'O nome deve ter no máximo 16 caracteres.',
+	'question_maximum' => 'A pergunta deve ter no máximo 16 caracteres.',
 	'use_followers' => 'Usar seguidores?',
 	'use_followers_help' => 'Se desativado, será utilizado o sistema de amigos.',
 	
@@ -316,6 +322,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'Instância mcassoc',
 	'mcassoc_instance_help' => 'Gerar um código de instância <a href="http://jsbin.com/jadofehoqu/1/" target="_blank">aqui</a>',
 	'mcassoc_key_help' => 'Obter a sua chave mcassoc <a href="https://mcassoc.lukegb.com/" target="_blank">aqui</a>',
+	'enable_name_history' => 'Enable profile username history?',
 	
 	// Admin Themes, Templates and Addons
 	'themes' => 'Temas',
@@ -351,6 +358,7 @@ $admin_language = array(
 	'inverse_navbar' => 'Barra de navegação inversa',
 	'confirm_theme_deletion' => 'Tem certeza de que deseja excluir o tema <strong>{x}</strong>?<br /><br />O tema será apagado do seu diretório <strong>styles/themes</strong>.', // Don't replace {x}
 	'confirm_template_deletion' => 'Tem certeza de que deseja excluir o template <strong>{x}</strong>?<br /><br />O template será apagado do seu diretório <strong>styles/templates</strong>.', // Don't replace {x}
+	'unable_to_enable_addon' => 'Não foi possível ativar o addon. Verifique se ele é um addon do NamelessMC válido.',
 	
 	// Admin Misc page
 	'other_settings' => 'Outras Configurações',

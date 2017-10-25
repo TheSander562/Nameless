@@ -136,6 +136,12 @@ $admin_language = array(
 	'text' => '文字',
 	'textarea' => '文字區塊',
 	'question_deleted' => '問題已刪除',
+	'name_required' => 'Name is required.',
+	'question_required' => 'Question is required.',
+	'name_minimum' => 'Name must be a minimum of 2 characters.',
+	'question_minimum' => 'Question must be a minimum of 2 characters.',
+	'name_maximum' => 'Name must be a maximum of 16 characters.',
+	'question_maximum' => 'Question must be a maximum of 16 characters.',
 	'use_followers' => '使用追隨者',
 	'use_followers_help' => '如果停用此選項，系統將會啟用好友系統。',
 	
@@ -312,6 +318,7 @@ $admin_language = array(
 	'mcassoc_instance' => 'mcassoc Instance',
 	'mcassoc_instance_help' => '在<a href="http://jsbin.com/jadofehoqu/1/" target="_blank">這裡</a>建立一個 Instance 代碼',
 	'mcassoc_key_help' => '在<a href="https://mcassoc.lukegb.com/" target="_blank">這裡</a>取得你的 mcassoc 金鑰',
+	'enable_name_history' => 'Enable profile username history?',
 	
 	// Admin Themes, Templates and Addons
 	'themes' => '佈景主題',
@@ -347,6 +354,7 @@ $admin_language = array(
 	'inverse_navbar' => '反轉導航列顏色',
 	'confirm_theme_deletion' => '你確認要刪除佈景主題 <strong>{x}</strong>嗎？<br /><br />該佈景主題將會自 <strong>styles/themes</strong> 刪除。', // Don't replace {x}
 	'confirm_template_deletion' => '你確認要刪除模板 <strong>{x}</strong>嗎？<br /><br />該模板將會自 <strong>styles/templates</strong> 刪除。', // Don't replace {x}
+	'unable_to_enable_addon' => 'Could not enable addon. Please ensure it is a valid NamelessMC addon.',
 	
 	// Admin Misc page
 	'other_settings' => '其他設定',
